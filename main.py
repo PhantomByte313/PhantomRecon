@@ -14,7 +14,7 @@ def main():
         app = QApplication(sys.argv)
         app.setApplicationName("Phantom Recon")
         app.setFont(QFont("Segoe UI", 10))
-        from ui.app import PhantomRecon
+        from app.app import PhantomRecon
         win = PhantomRecon()
         win.show()
         sys.exit(app.exec())
